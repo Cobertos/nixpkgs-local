@@ -70,7 +70,7 @@ let
       owner = "pandas-dev";
       repo = "pandas";
       tag = "v${version}";
-      hash = "sha256-4QZA+NfLES9NtNKy+KAo6VDlwxXP7kHbkR0tdQVADys=";
+      hash = "sha256-G+pWdmft/kcxv97ySa+0ZFEgvMKuNaK33DseZQ8R1z8=";
     };
 
     # A NOTE regarding the Numpy version relaxing: Both Numpy versions 1.x &
