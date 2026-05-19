@@ -47,7 +47,7 @@ buildPythonPackage (finalAttrs: {
     description = "Utilities to facilitate the installation of Python packages";
     homepage = "https://github.com/pypa/setuptools";
     changelog = "https://setuptools.pypa.io/en/stable/history.html#v${
-      lib.replaceStrings "." "-" finalAttrs.version
+      lib.replaceString "." "-" finalAttrs.version
     }";
     license = with lib.licenses; [ mit ];
     platforms = python.meta.platforms;
